@@ -17,6 +17,7 @@ body{
     align-items: center;
     justify-content: space-between;
     background-color: rgb(100, 8, 8);
+    justify-content: center;
 }
 
 .navegation ul{
@@ -68,4 +69,9 @@ img{
     font-size: 15px;
 }
 
+.botao{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
 

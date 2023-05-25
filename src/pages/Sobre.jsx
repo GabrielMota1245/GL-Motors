@@ -1,6 +1,11 @@
+import Logo from '../assets/logo.png'
 function Sobre(){
     return(
-        <h1>Olá Mundo da Sobre</h1>
+        <>
+        <img src={Logo} alt="Imagem da Logo" />
+        <h1>Nossa História</h1>
+        <p></p>
+        </>
     )
 }
 
