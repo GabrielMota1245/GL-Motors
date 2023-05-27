@@ -8,6 +8,7 @@ import Lambo from '../assets/lamborghini.jpg'
 import Ferrari from '../assets/ferrari-roma.jpg'
 import Jetta from '../assets/jetta.jpg'
 import Hrv from '../assets/hrv-verde.jpg'
+import Bmw from '../assets/bmw320.jpg'
 import { useNavigate } from "react-router-dom";
 
 
@@ -20,20 +21,19 @@ function Home() {
             <div className='title'>
                 <h1>Nossos Veículos</h1>
             </div>
-
             <div className='galeria'>
-
                 <Carousel>
                     <div className='carousel-products'>
                         <div className='product-single'>
                             <div className='img-prod'>
                                 <img src={Golf} alt="Imagem de um Golf" />
                             </div>
+                   
                             <div className='nomes'>
                                 <h1>Golf</h1>
                                 <h3>R$ 120.000</h3>
                                 <p>Modelo: Golf GTI MK7</p>
-                                <p>200 KM - 2022/2023</p>
+                                <p>2000 KM - 2020/2021</p>
                             </div>
                         </div>
 
@@ -75,8 +75,6 @@ function Home() {
                         </div>
                     </div>
 
-
-
                     <div className='carousel-products'>
                         <div className='product-single'>
                             <div className='img-prod'>
@@ -112,6 +110,18 @@ function Home() {
                                 <h3>R$ 190.000</h3>
                                 <p>Modelo: HRV</p>
                                 <p>3000 KM - 2022/2023</p>
+                            </div>
+                        </div>
+
+                        <div className='product-single'>
+                            <div className='img-prod'>
+                                <img src={Bmw} alt="Imagem de uma Bmw"/>
+                            </div>
+                            <div className='nomes'>
+                                <h1>BMW</h1>
+                                <h3>R$ 150.000</h3>
+                                <p>Modelo: BMW 320i</p>
+                                <p>5000 KM - 2019/2020</p>
                             </div>
                         </div>
                     </div>
