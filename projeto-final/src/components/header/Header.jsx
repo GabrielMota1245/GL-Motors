@@ -5,17 +5,17 @@ function Header(){
         <div className="navegation">
         <ul>
             <li>
-                <Link to="/">Home</Link>
+                <Link to="/">Home</Link>                
             </li>
-        <li>
-            <Link to="/sobre">Sobre</Link>
-        </li>
-        <li>
-            <Link to="/contato">Contato</Link>
-        </li>
-        <li>
-            <Link to="/produto">Estoque</Link>
-        </li>
+            <li>
+                <Link to="/Sobre">Sobre</Link>
+            </li>
+            <li>
+                <Link to="/Contato">Contato</Link>
+            </li>
+            <li>
+                <Link to="/Produto">Estoque</Link>
+            </li>
      </ul>
 </div>
     )

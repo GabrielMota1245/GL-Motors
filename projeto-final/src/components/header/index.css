@@ -44,7 +44,7 @@ img{
     justify-content:center;
 }
 
-.img-prod{
+.img-prod,.img-prod img{
     width: 200px;
     height: 200px;
     display: flex;
@@ -61,6 +61,7 @@ img{
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    padding-left: 30px;
 }
 
 .titulo{
@@ -73,5 +74,38 @@ img{
     display: flex;
     justify-content: center;
     padding: 30px;
+}
+
+title{
+    display: flex;
+}
+
+.topo{
+    display: flex;
+    gap: 35px;
+    padding: 20px;
+}
+
+.contact p{
+    padding: 10px;
+    font-size: 17px;
+}
+
+.topo{
+    display: flex;
+}
+
+.contact{
+        width: 50%;
+}
+
+.form{
+    width: 50%;
+}
+
+.form-action{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
