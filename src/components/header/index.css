@@ -26,11 +26,9 @@ body{
     align-items: center;
 }
 
-.navegation ul li a {
+.navegation ul li a{
     color: white;
 }
-
-
 
 img{
     max-height: 580px;
@@ -109,3 +107,17 @@ title{
     gap: 15px;
 }
 
+.sobre{
+    padding: 30px;
+}
+
+.sobre h1{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.sobre p{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

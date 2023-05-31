@@ -45,7 +45,7 @@ function Home() {
                             <div className='nomes'>
                                 <h1>Porsche</h1>
                                 <h3>R$ 1.000.000</h3>
-                                <p>Modelo: Porsche Carrera</p>
+                                <p>Modelo: Porsche Carrera S</p>
                                 <p>1500 KM - 2022/2023</p>
                             </div>
                         </div>
