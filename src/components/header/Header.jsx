@@ -5,24 +5,29 @@ import MenuItem from '@mui/material/MenuItem';
 import "./index.css"
 import React from "react";
 
-function Header(){
-    return(
+function Header() {
+    return (
+
+
         <div className="navegation">
-        <ul>
-            <li>
-                <Link to="/">Home</Link>                
-            </li>
-            <li>
-                <Link to="/Sobre">Sobre</Link>
-            </li>
-            <li>
-                <Link to="/Contato">Contato</Link>
-            </li>
-            <li>
-                <Link to="/Produto">Estoque</Link>
-            </li>
-     </ul>
-</div>
+            <div className="titulo-navegation">
+                <h1>GL MOTORS</h1>
+            </div>
+            <ul>
+                <li>
+                    <Link to="/">Home</Link>
+                </li>
+                <li>
+                    <Link to="/Sobre">Sobre</Link>
+                </li>
+                <li>
+                    <Link to="/Contato">Contato</Link>
+                </li>
+                <li>
+                    <Link to="/Produto">Estoque</Link>
+                </li>
+            </ul>
+        </div>
     )
 }
 

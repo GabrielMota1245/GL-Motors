@@ -17,7 +17,13 @@ body{
     align-items: center;
     justify-content: space-between;
     background-color: rgb(100, 8, 8);
-    justify-content: center;
+}
+
+.titulo-navegation{
+    display: flex;
+    font-size: 11px;
+    color: white;
+    padding: 20px;    
 }
 
 .navegation ul{
@@ -28,7 +34,9 @@ body{
 
 .navegation ul li a{
     color: white;
+    padding: 25px;
 }
+
 
 img{
     max-height: 580px;
